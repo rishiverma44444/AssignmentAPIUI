@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21836" started-at="2020-09-24T19:40:03Z" finished-at="2020-09-24T19:40:25Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="21836" started-at="2020-09-24T19:40:03Z" finished-at="2020-09-24T19:40:25Z">
+      <class name="com.testing.booking.FlightBooking">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testing.booking.FlightBooking@4501b7af]" name="setup" is-config="true" duration-ms="4809" started-at="2020-09-25T01:10:03Z" finished-at="2020-09-25T01:10:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="openWebsite()[pri:1, instance:com.testing.booking.FlightBooking@4501b7af]" name="openWebsite" duration-ms="5301" started-at="2020-09-25T01:10:08Z" description="To verify that Website open successfully" finished-at="2020-09-25T01:10:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.testing.booking.FlightBooking@4501b7af]" name="screenShot" is-config="true" duration-ms="377" started-at="2020-09-25T01:10:13Z" description="To capture screenshot after each method execution" finished-at="2020-09-25T01:10:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openWebsite status=SUCCESS method=FlightBooking.openWebsite()[pri:1, instance:com.testing.booking.FlightBooking@4501b7af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="chooseCities()[pri:2, instance:com.testing.booking.FlightBooking@4501b7af]" name="chooseCities" duration-ms="1396" started-at="2020-09-25T01:10:17Z" description="Choose Cities as per Config.properties" finished-at="2020-09-25T01:10:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseCities -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.testing.booking.FlightBooking@4501b7af]" name="screenShot" is-config="true" duration-ms="326" started-at="2020-09-25T01:10:19Z" description="To capture screenshot after each method execution" finished-at="2020-09-25T01:10:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=chooseCities status=SUCCESS method=FlightBooking.chooseCities()[pri:2, instance:com.testing.booking.FlightBooking@4501b7af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="flightSelected()[pri:4, instance:com.testing.booking.FlightBooking@4501b7af]" name="flightSelected" duration-ms="942" started-at="2020-09-25T01:10:20Z" description="Reservation Screen Open succcessfully" finished-at="2020-09-25T01:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightSelected -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.testing.booking.FlightBooking@4501b7af]" name="screenShot" is-config="true" duration-ms="464" started-at="2020-09-25T01:10:21Z" description="To capture screenshot after each method execution" finished-at="2020-09-25T01:10:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flightSelected status=SUCCESS method=FlightBooking.flightSelected()[pri:4, instance:com.testing.booking.FlightBooking@4501b7af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="reservationForm()[pri:5, instance:com.testing.booking.FlightBooking@4501b7af]" name="reservationForm" duration-ms="2564" started-at="2020-09-25T01:10:22Z" description="Reservation form filled up and submitted succesfully" finished-at="2020-09-25T01:10:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reservationForm -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.testing.booking.FlightBooking@4501b7af]" name="screenShot" is-config="true" duration-ms="324" started-at="2020-09-25T01:10:24Z" description="To capture screenshot after each method execution" finished-at="2020-09-25T01:10:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=reservationForm status=SUCCESS method=FlightBooking.reservationForm()[pri:5, instance:com.testing.booking.FlightBooking@4501b7af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testing.booking.FlightBooking@4501b7af]" name="tearDown" is-config="true" duration-ms="243" started-at="2020-09-25T01:10:25Z" finished-at="2020-09-25T01:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testing.booking.FlightBooking -->
+      <class name="com.testing.booking.SpaceXService">
+        <test-method status="PASS" signature="getSuccessValidation()[pri:1, instance:com.testing.booking.SpaceXService@523884b2]" name="getSuccessValidation" duration-ms="3897" started-at="2020-09-25T01:10:14Z" description="Verify API responding success" finished-at="2020-09-25T01:10:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSuccessValidation -->
+        <test-method status="PASS" signature="getResponseValidation()[pri:2, instance:com.testing.booking.SpaceXService@523884b2]" name="getResponseValidation" duration-ms="390" started-at="2020-09-25T01:10:19Z" description="Verify API Response" depends-on-methods="com.testing.booking.SpaceXService.getSuccessValidation" finished-at="2020-09-25T01:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseValidation -->
+        <test-method status="PASS" signature="getIDValidation()[pri:3, instance:com.testing.booking.SpaceXService@523884b2]" name="getIDValidation" duration-ms="720" started-at="2020-09-25T01:10:20Z" description="Verify API Response" depends-on-methods="com.testing.booking.SpaceXService.getResponseValidation" finished-at="2020-09-25T01:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getIDValidation -->
+      </class> <!-- com.testing.booking.SpaceXService -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
