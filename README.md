@@ -1,10 +1,8 @@
-#FlightBooking
-
 #TechStack Used as -
 
-#UI - Selenium + Java
-&
-#API - RestAssured + Java
+#UI - Selenium + Java+ TestNG
+
+#API - RestAssured + Java + TestNG
 
 #1. User can provide #DEPARTURE_CITY and #DESTINATION_CITY values in #Config.properties. 
    Going forward these values can be taken as a Pipeline parameter.
